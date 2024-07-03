@@ -14,3 +14,9 @@ console.log(array3)
 
 let sentence = array3.join(" ");
 console.log(sentence);
+
+let new_arr = array.slice(1, 3);
+
+console.log(new_arr);
+
+
