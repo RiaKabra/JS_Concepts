@@ -17,6 +17,12 @@ console.log(sentence);
 
 let new_arr = array.slice(1, 3);
 
+let new_arr2 = array.splice(0,3,"Jackfruit");
+
 console.log(new_arr);
+console.log(new_arr2);
+console.log(array);
+
+
 
 
