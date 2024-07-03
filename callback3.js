@@ -1,8 +1,9 @@
-var numbers = [5, 2, 8, 1, 4];
-function sortNumbers(a, b) {
-  return a - b;
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function filterEven(number) {
+  return number % 2 === 0;
 }
 
-numbers.sort(sortNumbers);
+var evenNumbers = numbers.filter(filterEven);
 
-console.log("Sorted numbers:", numbers); 
+console.log("Even numbers:", evenNumbers); 
